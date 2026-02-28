@@ -6,9 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rupa Sri Revathi A | Mechanical Engineer</title>
 
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
   <link rel="stylesheet" href="./assets/css/style.css">
-
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
@@ -17,64 +15,13 @@
 <main>
 
 <!-- ================= SIDEBAR ================= -->
-<aside class="sidebar" data-sidebar>
+<aside class="sidebar">
 
   <div class="sidebar-info">
-
     <div class="info-content">
       <h1 class="name">Rupa Sri Revathi A</h1>
       <p class="title">Mechanical Engineering Student | AFCAT Aspirant</p>
     </div>
-
-    <button class="info_more-btn" data-sidebar-btn>
-      <span>Show Contacts</span>
-      <ion-icon name="chevron-down"></ion-icon>
-    </button>
-
-  </div>
-
-  <div class="sidebar-info_more">
-
-    <div class="separator"></div>
-
-    <ul class="contacts-list">
-
-      <li class="contact-item">
-        <div class="icon-box">
-          <ion-icon name="mail-outline"></ion-icon>
-        </div>
-        <div class="contact-info">
-          <p class="contact-title">Email</p>
-          <a href="mailto:rupamaha04@gmail.com" class="contact-link">
-            rupamaha04@gmail.com
-          </a>
-        </div>
-      </li>
-
-      <li class="contact-item">
-        <div class="icon-box">
-          <ion-icon name="phone-portrait-outline"></ion-icon>
-        </div>
-        <div class="contact-info">
-          <p class="contact-title">Phone</p>
-          <a href="tel:+917200625788" class="contact-link">
-            +91 7200625788
-          </a>
-        </div>
-      </li>
-
-      <li class="contact-item">
-        <div class="icon-box">
-          <ion-icon name="location-outline"></ion-icon>
-        </div>
-        <div class="contact-info">
-          <p class="contact-title">Location</p>
-          <address>Tirunelveli, Tamil Nadu, India</address>
-        </div>
-      </li>
-
-    </ul>
-
   </div>
 
 </aside>
@@ -86,169 +33,84 @@
 <!-- NAVIGATION -->
 <nav class="navbar">
   <ul class="navbar-list">
-    <li class="navbar-item">
-      <button class="navbar-link active" data-nav-link>About</button>
-    </li>
-    <li class="navbar-item">
-      <button class="navbar-link" data-nav-link>Resume</button>
-    </li>
-    <li class="navbar-item">
-      <button class="navbar-link" data-nav-link>Portfolio</button>
-    </li>
-    <li class="navbar-item">
-      <button class="navbar-link" data-nav-link>Contact</button>
-    </li>
+    <li><button class="navbar-link active" onclick="showPage(0)">About</button></li>
+    <li><button class="navbar-link" onclick="showPage(1)">Resume</button></li>
+    <li><button class="navbar-link" onclick="showPage(2)">Portfolio</button></li>
+    <li><button class="navbar-link" onclick="showPage(3)">Contact</button></li>
   </ul>
 </nav>
 
 
 <!-- ================= ABOUT ================= -->
-<article class="about active" data-page="about">
-
-  <header>
-    <h2 class="h2 article-title">About Me</h2>
-  </header>
-
-  <section class="about-text">
-    <p>
-      I am currently pursuing B.E. Mechanical Engineering at College of Engineering,
-      Guindy, Anna University with a CGPA of 8.9.
-      I am also pursuing B.A. Tamil Literature through correspondence.
-    </p>
-
-    <p>
-      My core interests lie in Thermal Sciences, Propulsion Systems and Rocket Science.
-      I aspire to serve in the Technical Branch of the Indian Air Force through AFCAT.
-    </p>
-  </section>
-
-</article>
-
+<section class="page active">
+  <h2>About Me</h2>
+  <p>
+    I am currently pursuing B.E. Mechanical Engineering at College of Engineering,
+    Guindy, Anna University with a CGPA of 8.9.
+  </p>
+  <p>
+    My interests include Thermal Sciences, Propulsion Systems and Rocket Science.
+    I aspire to join the Indian Air Force Technical Branch through AFCAT.
+  </p>
+</section>
 
 
 <!-- ================= RESUME ================= -->
-<article class="resume" data-page="resume">
+<section class="page">
+  <h2>Resume</h2>
 
-<header>
-  <h2 class="h2 article-title">Resume</h2>
-</header>
+  <h3>Education</h3>
+  <p><strong>B.E Mechanical Engineering</strong> (2023–2027)<br>
+  CGPA: 8.9</p>
 
-<section class="timeline">
-  <h3 class="h3">Education</h3>
+  <h3>Internships</h3>
+  <p><strong>Brakes India Pvt Ltd</strong> – June 2025</p>
+  <p><strong>Airport Authority of India</strong> – July 2025</p>
 
-  <ol class="timeline-list">
-
-    <li class="timeline-item">
-      <h4 class="h4 timeline-item-title">B.E. Mechanical Engineering</h4>
-      <span>2023 — 2027</span>
-      <p class="timeline-text">
-        College of Engineering, Guindy | CGPA: 8.9
-      </p>
-    </li>
-
-    <li class="timeline-item">
-      <h4 class="h4 timeline-item-title">B.A. Tamil Literature</h4>
-      <span>2023 — 2026</span>
-      <p class="timeline-text">
-        Manonmaniam Sundaranar University (Correspondence)
-      </p>
-    </li>
-
-    <li class="timeline-item">
-      <h4 class="h4 timeline-item-title">Higher Secondary</h4>
-      <span>2021 — 2023</span>
-      <p class="timeline-text">
-        95.3% - Little Flower MHSS
-      </p>
-    </li>
-
-  </ol>
 </section>
-
-
-<section class="timeline">
-  <h3 class="h3">Internships</h3>
-
-  <ol class="timeline-list">
-
-    <li class="timeline-item">
-      <h4 class="h4 timeline-item-title">Brakes India Pvt Ltd</h4>
-      <span>June 2025</span>
-      <p class="timeline-text">
-        Observed 9-stage backplate manufacturing process in Press Shop.
-      </p>
-    </li>
-
-    <li class="timeline-item">
-      <h4 class="h4 timeline-item-title">Airport Authority of India</h4>
-      <span>July 2025</span>
-      <p class="timeline-text">
-        Motor Transport Section - Chennai Airport.
-      </p>
-    </li>
-
-  </ol>
-</section>
-
-</article>
-
 
 
 <!-- ================= PORTFOLIO ================= -->
-<article class="portfolio" data-page="portfolio">
+<section class="page">
+  <h2>Projects</h2>
 
-<header>
-  <h2 class="h2 article-title">Projects</h2>
-</header>
+  <p><strong>Alternative Catalytic Converter Model</strong><br>
+  Designed using Fusion 360</p>
 
-<ul class="project-list">
+  <p><strong>AutoGrip 6R</strong><br>
+  Arduino Based 6-Axis Robotic Gripper</p>
 
-  <li class="project-item active">
-    <h3 class="project-title">Alternative Catalytic Converter Model</h3>
-    <p class="project-category">Fusion 360 Design & Simulation</p>
-  </li>
-
-  <li class="project-item active">
-    <h3 class="project-title">AutoGrip 6R</h3>
-    <p class="project-category">Arduino Based 6-Axis Robotic Gripper</p>
-  </li>
-
-</ul>
-
-</article>
-
+</section>
 
 
 <!-- ================= CONTACT ================= -->
-<article class="contact" data-page="contact">
+<section class="page">
+  <h2>Contact</h2>
 
-<header>
-  <h2 class="h2 article-title">Contact</h2>
-</header>
+  <p>Email: rupamaha04@gmail.com</p>
+  <p>Phone: +91 7200625788</p>
+  <p>Location: Tirunelveli, Tamil Nadu</p>
 
-<section class="contact-form">
-  <form class="form">
-
-    <input type="text" class="form-input" placeholder="Your Name" required>
-    <input type="email" class="form-input" placeholder="Your Email" required>
-    <textarea class="form-input" placeholder="Your Message" required></textarea>
-
-    <button class="form-btn" type="submit">
-      Send Message
-    </button>
-
-  </form>
 </section>
-
-</article>
 
 </div>
 </main>
 
-<script src="./assets/js/script.js"></script>
 
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- ================= WORKING SCRIPT ================= -->
+<script>
+  const pages = document.querySelectorAll(".page");
+  const buttons = document.querySelectorAll(".navbar-link");
+
+  function showPage(index) {
+
+    pages.forEach(page => page.classList.remove("active"));
+    buttons.forEach(btn => btn.classList.remove("active"));
+
+    pages[index].classList.add("active");
+    buttons[index].classList.add("active");
+  }
+</script>
 
 </body>
 </html>
