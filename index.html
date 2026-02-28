@@ -1,266 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rupa Sri Revathi A | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rupa Sri Revathi A | Mechanical Engineer</title>
 
-<style>
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family: 'Segoe UI', sans-serif;
-}
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-body{
-  display:flex;
-  background:#0f172a;
-  color:#fff;
-  min-height:100vh;
-}
-
-/* Sidebar */
-.sidebar{
-  width:280px;
-  background:#1e293b;
-  padding:25px;
-  border-right:1px solid #334155;
-}
-
-.avatar{
-  width:130px;
-  height:130px;
-  border-radius:20px;
-  object-fit:cover;
-  border:3px solid #facc15;
-  display:block;
-  margin:0 auto 15px;
-}
-
-.sidebar h2{
-  text-align:center;
-  margin-bottom:5px;
-}
-
-.role{
-  text-align:center;
-  color:#94a3b8;
-  font-size:14px;
-  margin-bottom:20px;
-}
-
-.contact-item{
-  margin-bottom:15px;
-  font-size:14px;
-  color:#cbd5e1;
-}
-
-/* Main */
-.main{
-  flex:1;
-  padding:30px;
-}
-
-/* Navbar */
-.navbar{
-  display:flex;
-  gap:25px;
-  margin-bottom:30px;
-}
-
-.navbar a{
-  text-decoration:none;
-  color:#94a3b8;
-  cursor:pointer;
-  font-weight:500;
-}
-
-.navbar a.active,
-.navbar a:hover{
-  color:#facc15;
-}
-
-/* Sections */
-section{
-  display:none;
-}
-
-section.active{
-  display:block;
-}
-
-h1{
-  margin-bottom:20px;
-  color:#facc15;
-}
-
-/* Cards */
-.card{
-  background:#1e293b;
-  padding:20px;
-  border-radius:12px;
-  margin-bottom:20px;
-}
-
-/* Grid */
-.grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:20px;
-}
-
-/* Contact Form */
-form input, form textarea{
-  width:100%;
-  padding:10px;
-  margin-bottom:15px;
-  border:none;
-  border-radius:6px;
-}
-
-form button{
-  padding:10px 15px;
-  background:#facc15;
-  border:none;
-  border-radius:6px;
-  cursor:pointer;
-}
-</style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- SIDEBAR -->
-<div class="sidebar">
-  <!-- Change image here -->
-  <img src="profile.jpg" alt="Rupa Sri Revathi A" class="avatar">
+<main>
 
-  <h2>Rupa Sri Revathi A</h2>
-  <div class="role">Mechanical Engineering Student</div>
+<!-- ================= SIDEBAR ================= -->
+<aside class="sidebar" data-sidebar>
 
-  <div class="contact-item"><strong>Email:</strong><br>rupamaha04@gmail.com</div>
-  <div class="contact-item"><strong>Phone:</strong><br>+91 7200625788</div>
-  <div class="contact-item"><strong>Location:</strong><br>Tirunelveli, Tamil Nadu, India</div>
-</div>
+  <div class="sidebar-info">
 
-<!-- MAIN CONTENT -->
-<div class="main">
+    <div class="info-content">
+      <h1 class="name">Rupa Sri Revathi A</h1>
+      <p class="title">Mechanical Engineering Student | AFCAT Aspirant</p>
+    </div>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <a onclick="showSection('about')" class="active">About</a>
-    <a onclick="showSection('resume')">Resume</a>
-    <a onclick="showSection('portfolio')">Portfolio</a>
-    <a onclick="showSection('contact')">Contact</a>
-  </nav>
+    <button class="info_more-btn" data-sidebar-btn>
+      <span>Show Contacts</span>
+      <ion-icon name="chevron-down"></ion-icon>
+    </button>
 
-  <!-- ABOUT -->
-  <section id="about" class="active">
-    <h1>About Me</h1>
-    <div class="card">
-      <p>
-        I am currently pursuing B.E. Mechanical Engineering at College of Engineering, Guindy, Anna University with a CGPA of 8.9. 
-        I am also pursuing B.A. Tamil Literature through correspondence.
+  </div>
+
+  <div class="sidebar-info_more">
+
+    <div class="separator"></div>
+
+    <ul class="contacts-list">
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="mail-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Email</p>
+          <a href="mailto:rupamaha04@gmail.com" class="contact-link">
+            rupamaha04@gmail.com
+          </a>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="phone-portrait-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Phone</p>
+          <a href="tel:+917200625788" class="contact-link">
+            +91 7200625788
+          </a>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="location-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Location</p>
+          <address>Tirunelveli, Tamil Nadu, India</address>
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+
+</aside>
+
+
+<!-- ================= MAIN CONTENT ================= -->
+<div class="main-content">
+
+<!-- NAVIGATION -->
+<nav class="navbar">
+  <ul class="navbar-list">
+    <li class="navbar-item">
+      <button class="navbar-link active" data-nav-link>About</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Resume</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Portfolio</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Contact</button>
+    </li>
+  </ul>
+</nav>
+
+
+<!-- ================= ABOUT ================= -->
+<article class="about active" data-page="about">
+
+  <header>
+    <h2 class="h2 article-title">About Me</h2>
+  </header>
+
+  <section class="about-text">
+    <p>
+      I am currently pursuing B.E. Mechanical Engineering at College of Engineering,
+      Guindy, Anna University with a CGPA of 8.9.
+      I am also pursuing B.A. Tamil Literature through correspondence.
+    </p>
+
+    <p>
+      My core interests lie in Thermal Sciences, Propulsion Systems and Rocket Science.
+      I aspire to serve in the Technical Branch of the Indian Air Force through AFCAT.
+    </p>
+  </section>
+
+</article>
+
+
+
+<!-- ================= RESUME ================= -->
+<article class="resume" data-page="resume">
+
+<header>
+  <h2 class="h2 article-title">Resume</h2>
+</header>
+
+<section class="timeline">
+  <h3 class="h3">Education</h3>
+
+  <ol class="timeline-list">
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">B.E. Mechanical Engineering</h4>
+      <span>2023 — 2027</span>
+      <p class="timeline-text">
+        College of Engineering, Guindy | CGPA: 8.9
       </p>
-      <br>
-      <p>
-        My core interests lie in Thermal Sciences, Propulsion Systems and Rocket Science. 
-        I aspire to serve in the Technical Branch of the Indian Air Force through AFCAT.
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">B.A. Tamil Literature</h4>
+      <span>2023 — 2026</span>
+      <p class="timeline-text">
+        Manonmaniam Sundaranar University (Correspondence)
       </p>
-    </div>
-  </section>
+    </li>
 
-  <!-- RESUME -->
-  <section id="resume">
-    <h1>Resume</h1>
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Higher Secondary</h4>
+      <span>2021 — 2023</span>
+      <p class="timeline-text">
+        95.3% - Little Flower MHSS
+      </p>
+    </li>
 
-    <div class="card">
-      <h3>Education</h3>
-      <p>B.E Mechanical Engineering (2023-2027) – CGPA: 8.9</p>
-      <p>B.A Tamil Literature (2023-2026)</p>
-      <p>PGDCA – Computer Applications (6 Months)</p>
-      <p>Higher Secondary – 95.3%</p>
-    </div>
+  </ol>
+</section>
 
-    <div class="card">
-      <h3>Internships</h3>
-      <p>Brakes India Pvt Ltd – June 2025</p>
-      <p>Airport Authority of India – July 2025</p>
-    </div>
 
-    <div class="card">
-      <h3>Skills</h3>
-      <p>AutoCAD, Creo, Fusion 360</p>
-      <p>Python, HTML</p>
-      <p>Microsoft Office</p>
-    </div>
+<section class="timeline">
+  <h3 class="h3">Internships</h3>
 
-    <div class="card">
-      <h3>Leadership</h3>
-      <p>Lance Corporal – NCC</p>
-      <p>Academic Representative 2024-25</p>
-    </div>
-  </section>
+  <ol class="timeline-list">
 
-  <!-- PORTFOLIO -->
-  <section id="portfolio">
-    <h1>Portfolio</h1>
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Brakes India Pvt Ltd</h4>
+      <span>June 2025</span>
+      <p class="timeline-text">
+        Observed 9-stage backplate manufacturing process in Press Shop.
+      </p>
+    </li>
 
-    <div class="grid">
-      <div class="card">
-        <h3>Alternative Catalytic Converter</h3>
-        <p>Model & Simulation using Fusion 360</p>
-      </div>
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Airport Authority of India</h4>
+      <span>July 2025</span>
+      <p class="timeline-text">
+        Motor Transport Section - Chennai Airport.
+      </p>
+    </li>
 
-      <div class="card">
-        <h3>AutoGrip 6R</h3>
-        <p>Arduino Based 6-Axis Robotic Gripper</p>
-      </div>
+  </ol>
+</section>
 
-      <div class="card">
-        <h3>3D Printing Workshop</h3>
-        <p>Pixels to Plastics</p>
-      </div>
-    </div>
-  </section>
+</article>
 
-  <!-- CONTACT -->
-  <section id="contact">
-    <h1>Contact Me</h1>
 
-    <div class="card">
-      <form onsubmit="return submitForm()">
-        <input type="text" placeholder="Full Name" required>
-        <input type="email" placeholder="Email Address" required>
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-  </section>
+
+<!-- ================= PORTFOLIO ================= -->
+<article class="portfolio" data-page="portfolio">
+
+<header>
+  <h2 class="h2 article-title">Projects</h2>
+</header>
+
+<ul class="project-list">
+
+  <li class="project-item active">
+    <h3 class="project-title">Alternative Catalytic Converter Model</h3>
+    <p class="project-category">Fusion 360 Design & Simulation</p>
+  </li>
+
+  <li class="project-item active">
+    <h3 class="project-title">AutoGrip 6R</h3>
+    <p class="project-category">Arduino Based 6-Axis Robotic Gripper</p>
+  </li>
+
+</ul>
+
+</article>
+
+
+
+<!-- ================= CONTACT ================= -->
+<article class="contact" data-page="contact">
+
+<header>
+  <h2 class="h2 article-title">Contact</h2>
+</header>
+
+<section class="contact-form">
+  <form class="form">
+
+    <input type="text" class="form-input" placeholder="Your Name" required>
+    <input type="email" class="form-input" placeholder="Your Email" required>
+    <textarea class="form-input" placeholder="Your Message" required></textarea>
+
+    <button class="form-btn" type="submit">
+      Send Message
+    </button>
+
+  </form>
+</section>
+
+</article>
 
 </div>
+</main>
 
-<script>
-function showSection(sectionId){
-  document.querySelectorAll("section").forEach(sec=>{
-    sec.classList.remove("active");
-  });
+<script src="./assets/js/script.js"></script>
 
-  document.getElementById(sectionId).classList.add("active");
-
-  document.querySelectorAll(".navbar a").forEach(link=>{
-    link.classList.remove("active");
-  });
-
-  event.target.classList.add("active");
-}
-
-function submitForm(){
-  alert("Message sent successfully!");
-  return false;
-}
-</script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
