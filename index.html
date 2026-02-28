@@ -1,136 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Rupa Sri Revathi A</title>
-  <link rel="stylesheet" href="style.css"> <!-- link to your CSS -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rupa Sri Revathi A | Portfolio</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+  display:flex;
+  background:#0f172a;
+  color:#fff;
+  min-height:100vh;
+}
+
+/* Sidebar */
+.sidebar{
+  width:280px;
+  background:#1e293b;
+  padding:25px;
+  border-right:1px solid #334155;
+}
+
+.avatar{
+  width:130px;
+  height:130px;
+  border-radius:20px;
+  object-fit:cover;
+  border:3px solid #facc15;
+  display:block;
+  margin:0 auto 15px;
+}
+
+.sidebar h2{
+  text-align:center;
+  margin-bottom:5px;
+}
+
+.role{
+  text-align:center;
+  color:#94a3b8;
+  font-size:14px;
+  margin-bottom:20px;
+}
+
+.contact-item{
+  margin-bottom:15px;
+  font-size:14px;
+  color:#cbd5e1;
+}
+
+/* Main */
+.main{
+  flex:1;
+  padding:30px;
+}
+
+/* Navbar */
+.navbar{
+  display:flex;
+  gap:25px;
+  margin-bottom:30px;
+}
+
+.navbar a{
+  text-decoration:none;
+  color:#94a3b8;
+  cursor:pointer;
+  font-weight:500;
+}
+
+.navbar a.active,
+.navbar a:hover{
+  color:#facc15;
+}
+
+/* Sections */
+section{
+  display:none;
+}
+
+section.active{
+  display:block;
+}
+
+h1{
+  margin-bottom:20px;
+  color:#facc15;
+}
+
+/* Cards */
+.card{
+  background:#1e293b;
+  padding:20px;
+  border-radius:12px;
+  margin-bottom:20px;
+}
+
+/* Grid */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+/* Contact Form */
+form input, form textarea{
+  width:100%;
+  padding:10px;
+  margin-bottom:15px;
+  border:none;
+  border-radius:6px;
+}
+
+form button{
+  padding:10px 15px;
+  background:#facc15;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+</style>
 </head>
+
 <body>
-  <!-- Sidebar / Header -->
-  <header>
-    <div class="profile">
-      <img src="avatar.png" alt="Profile Avatar"> <!-- replace with your image -->
-      <h1>Rupa Sri Revathi A</h1>
-      <p>Mechanical Engineering Student | AFCAT Aspirant</p>
-      <p>📍 Tirunelveli, Tamil Nadu, India</p>
-      <p>📞 +91 7200625788</p>
-      <p>✉️ rupamaha04@gmail.com</p>
-      <div class="social-links">
-        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <!-- Change image here -->
+  <img src="profile.jpg" alt="Rupa Sri Revathi A" class="avatar">
+
+  <h2>Rupa Sri Revathi A</h2>
+  <div class="role">Mechanical Engineering Student</div>
+
+  <div class="contact-item"><strong>Email:</strong><br>rupamaha04@gmail.com</div>
+  <div class="contact-item"><strong>Phone:</strong><br>+91 7200625788</div>
+  <div class="contact-item"><strong>Location:</strong><br>Tirunelveli, Tamil Nadu, India</div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="main">
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a onclick="showSection('about')" class="active">About</a>
+    <a onclick="showSection('resume')">Resume</a>
+    <a onclick="showSection('portfolio')">Portfolio</a>
+    <a onclick="showSection('contact')">Contact</a>
+  </nav>
+
+  <!-- ABOUT -->
+  <section id="about" class="active">
+    <h1>About Me</h1>
+    <div class="card">
+      <p>
+        I am currently pursuing B.E. Mechanical Engineering at College of Engineering, Guindy, Anna University with a CGPA of 8.9. 
+        I am also pursuing B.A. Tamil Literature through correspondence.
+      </p>
+      <br>
+      <p>
+        My core interests lie in Thermal Sciences, Propulsion Systems and Rocket Science. 
+        I aspire to serve in the Technical Branch of the Indian Air Force through AFCAT.
+      </p>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume">
+    <h1>Resume</h1>
+
+    <div class="card">
+      <h3>Education</h3>
+      <p>B.E Mechanical Engineering (2023-2027) – CGPA: 8.9</p>
+      <p>B.A Tamil Literature (2023-2026)</p>
+      <p>PGDCA – Computer Applications (6 Months)</p>
+      <p>Higher Secondary – 95.3%</p>
+    </div>
+
+    <div class="card">
+      <h3>Internships</h3>
+      <p>Brakes India Pvt Ltd – June 2025</p>
+      <p>Airport Authority of India – July 2025</p>
+    </div>
+
+    <div class="card">
+      <h3>Skills</h3>
+      <p>AutoCAD, Creo, Fusion 360</p>
+      <p>Python, HTML</p>
+      <p>Microsoft Office</p>
+    </div>
+
+    <div class="card">
+      <h3>Leadership</h3>
+      <p>Lance Corporal – NCC</p>
+      <p>Academic Representative 2024-25</p>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio">
+    <h1>Portfolio</h1>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Alternative Catalytic Converter</h3>
+        <p>Model & Simulation using Fusion 360</p>
+      </div>
+
+      <div class="card">
+        <h3>AutoGrip 6R</h3>
+        <p>Arduino Based 6-Axis Robotic Gripper</p>
+      </div>
+
+      <div class="card">
+        <h3>3D Printing Workshop</h3>
+        <p>Pixels to Plastics</p>
       </div>
     </div>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am currently pursuing B.E. Mechanical Engineering at College of Engineering, Guindy, Anna University with a CGPA of 8.9. 
-      I am also pursuing B.A. Tamil Literature through correspondence. My core interests lie in Thermal Sciences, Propulsion Systems, and Rocket Science. 
-      I aspire to serve in the Technical Branch of the Indian Air Force through AFCAT.
-    </p>
-    <h3>Focus Areas</h3>
-    <ul>
-      <li><strong>Mechanical Design:</strong> AutoCAD, Creo, Fusion 360 based modelling and simulation.</li>
-      <li><strong>Thermal & Propulsion:</strong> Interest in IC Engines, Rocket Propulsion and Heat Transfer.</li>
-      <li><strong>Leadership:</strong> Lance Corporal - NCC | Academic Representative 2024-25.</li>
-    </ul>
   </section>
 
-  <!-- Resume Section -->
-  <section id="resume">
-    <h2>Resume</h2>
-    <h3>Education</h3>
-    <ul>
-      <li>B.E., Mechanical Engineering - College of Engineering, Guindy, Anna University (2023–2027) | CGPA: 8.9</li>
-      <li>B.A., Tamil Literature - Manonmanium Sundaranar University (2023–2026, Correspondence)</li>
-      <li>PGDCA in Computer Application - STI Computer Education (2023, 6 months)</li>
-      <li>Higher Secondary - Little Flower Matriculation Hr. Sec. School (2021–2023) | 95.3%</li>
-    </ul>
-
-    <h3>Internships</h3>
-    <ul>
-      <li>Brakes India Pvt Ltd – Padi, Chennai (16–27 June 2025)</li>
-      <li>Airport Authority of India (AAI), Motor Transport Section – Chennai (07–21 July 2025)</li>
-    </ul>
-
-    <h3>Skills</h3>
-    <ul>
-      <li>Typewriting – Tamil, English, Hindi</li>
-      <li>Yogasanas – Beginner, Intermediate</li>
-      <li>Designing – AutoCAD, Creo, Fusion 360</li>
-      <li>Aeromodelling</li>
-    </ul>
-
-    <h3>Certifications</h3>
-    <ul>
-      <li>AutoCAD – iTech Academy (3 months)</li>
-      <li>Python – Inbuilt subject (2nd semester)</li>
-      <li>HTML – Inbuilt in DCA (6 months)</li>
-      <li>Microsoft Word, Excel, PowerPoint – Inbuilt in DCA (6 months)</li>
-      <li>Hindi Exams up to Praveen Uttaradh – Dakshina Bharat Hindi Prachar Sabha</li>
-    </ul>
-
-    <h3>Positions</h3>
-    <ul>
-      <li>Official Representative (Academic Year 2024–2025)</li>
-      <li>Lance Corporal rank in Unit 1-(TN)-CTC of NCC</li>
-      <li>Best Creator – Short Story Contest (Tamil)</li>
-      <li>Author – “Malarum Siriya Malargal” (School Tamil Exhibition)</li>
-    </ul>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <h3>Projects</h3>
-    <ul>
-      <li>Model and Simulation of Alternative Catalytic Converter Using Fusion</li>
-      <li>AutoGrip 6R: Arduino-Based 6-Axis Robotic Gripper System</li>
-    </ul>
-
-    <h3>Workshops</h3>
-    <p>3D Printing: “Pixels to Plastics” – SME Workshop, Dept. of Mechanical Engineering</p>
-
-    <h3>Industrial Visits</h3>
-    <ul>
-      <li>AMTDC – IITM Research Park, Taramani</li>
-      <li>North Chennai Thermal Power Plant – Ennore</li>
-    </ul>
-  </section>
-
-  <!-- Contact Section -->
+  <!-- CONTACT -->
   <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:rupamaha04@gmail.com">rupamaha04@gmail.com</a></p>
-    <p>Phone: +91 7200625788</p>
-    <p>Location: Tirunelveli, Tamil Nadu, India</p>
+    <h1>Contact Me</h1>
+
+    <div class="card">
+      <form onsubmit="return submitForm()">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2026 Rupa Sri Revathi A | All Rights Reserved</p>
-  </footer>
+</div>
 
-  <!-- Optional Smooth Scroll Script -->
-  <script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-  </script>
+<script>
+function showSection(sectionId){
+  document.querySelectorAll("section").forEach(sec=>{
+    sec.classList.remove("active");
+  });
+
+  document.getElementById(sectionId).classList.add("active");
+
+  document.querySelectorAll(".navbar a").forEach(link=>{
+    link.classList.remove("active");
+  });
+
+  event.target.classList.add("active");
+}
+
+function submitForm(){
+  alert("Message sent successfully!");
+  return false;
+}
+</script>
+
 </body>
 </html>
