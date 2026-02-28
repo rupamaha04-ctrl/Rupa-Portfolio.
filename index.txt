@@ -1,240 +1,155 @@
 vCard - Personal Portfolio
 
-# sidebar
+# SIDEBAR
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Rupa Sri Revathi A
+Rupa Sri Revathi A
+Mechanical Engineering Student
 
 Show Contacts
 
-Email
-richard@example.com
+Phone:
+7200625788
 
-Phone
-+1 (213) 352-2795
+Email:
+rupamaha04@gmail.com
 
-Birthday
-June 23, 1982
+Location:
+Tirunelveli, Tamil Nadu, India
 
-Location
-Sacramento, California, USA
 
-# navbar
+# NAVBAR
 
 About
 Resume
 Portfolio
-Blog
 Contact
 
-# about
 
-About me
+# ABOUT
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+About Me
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+I am Rupa Sri Revathi A, currently pursuing B.E. Mechanical Engineering at the College of Engineering, Guindy, Anna University. I am a passionate and dedicated student with strong academic performance (CGPA: 8.9 up to 5th semester).
 
+Along with engineering, I am also pursuing B.A. Tamil Literature through correspondence, showcasing my deep interest in language and literature. I have completed PGDCA in Computer Applications and possess skills in design software, programming, and technical applications.
 
-## service
+I am highly interested in Thermal Science, Propulsion Systems, and Rocket Science. I strive to continuously learn and apply my knowledge through projects, workshops, and internships.
 
-What i'm doing
 
-alt = design icon
-Web design
-The most modern and high-quality design made at a professional level.
+# RESUME
 
-alt = Web development icon
-Web development
-High-quality development of sites at the professional level.
+## EDUCATION
 
-alt = mobile app icon
-Mobile apps
-Professional development of applications for iOS and Android.
+B.E., Mechanical Engineering  
+College of Engineering, Guindy, Anna University  
+2023 – 2027  
+CGPA: 8.9 (Up to 5th Semester)
 
-alt = camera icon
-Photography
-I make high-quality photos of any category at a professional level.
+B.A., Tamil Literature (Correspondence)  
+Manonmanium Sundaranar University, Tirunelveli  
+2023 – 2026
 
+PGDCA – Post Graduate Diploma in Computer Applications  
+STI Computer Education, Tirunelveli  
+2023 (6 Months – Diploma Course)
 
-## testimonials
+Higher Secondary Education  
+Little Flower Matriculation Higher Secondary School, Tirunelveli  
+2021 – 2023  
+Percentage: 95.3%
 
-Testimonials
 
-alt = Daniel lewis
-Daniel lewis
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+## PROJECTS
 
-alt = Jessica miller
-Jessica miller
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+Model and Simulation of Alternative Catalytic Converter using Fusion 360
 
-alt = Emily evans
-Emily evans
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+AutoGrip 6R – Arduino Based 6-Axis Robotic Gripper System
 
-alt = Henry william
-Henry william
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
 
+## WORKSHOP
 
-## clients
+3D Printing Workshop – “Pixels to Plastics”  
+Conducted by Department of Mechanical Engineering
 
-Clients
 
-alt = client logo
+## INDUSTRIAL VISITS
 
+AMTDC – Advanced Manufacturing Technology Development Centre  
+IITM Research Park, Taramani
 
+North Chennai Thermal Power Plant  
+Ennore
 
-# resume
 
-Resume
+## INTERNSHIPS
 
-Education
+Brakes India Pvt Ltd – Padi, Chennai (TVS)  
+16 June 2025 – 27 June 2025
 
-University school of the arts
-2007 — 2008
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Airport Authority of India (AAI) – Motor Transport Section, Chennai  
+07 July 2025 – 21 July 2025
 
-New york academy of art
-2006 — 2007
-Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
 
-High school of art and design
-2002 — 2004
-Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+## SKILLS
 
-Experience
+Designing: AutoCAD, Creo, Fusion 360  
+Programming: Python, HTML  
+Microsoft Applications: Word, Excel, PowerPoint  
+Typewriting: Tamil, English, Hindi  
+Aeromodelling  
+Yogasanas (Beginner & Intermediate)
 
-Creative director
-2015 — Present
-Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
 
-Art director
-2013 — 2015
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+## CERTIFICATIONS
 
-Web designer
-2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+AutoCAD – iTech Academy, Tirunelveli (3 Months)
 
-My skills
+Python – Academic Subject (2nd Semester)
 
-Web design
-80%
-Graphic design
-70%
-Branding
-90%
-WordPress
-50%
+HTML – Inbuilt in DCA (6 Months)
 
+Microsoft Applications – Word, Excel, PowerPoint (Inbuilt in DCA – 6 Months)
 
+Hindi Certification – Completed up to Praveen Uttaradh  
+Conducted by Dakshina Bharat Hindi Prachar Sabha
 
-# portfolio
 
-Portfolio
+## REPUTED POSITIONS & ACHIEVEMENTS
 
-All
-Web design
-Applications
-Web development
+Served as Official Representative for Academic Year 2024 – 2025
 
-Select category
-All
-Web design
-Applications
-Web development
+Secured Lance Corporal Rank  
+Unit 1 (TN) – CTC, NCC
 
-alt = finance
-Finance
-Web development
+Best Creator Award – Short Story Contest  
+Tobacco Monitor’s 5th National Online Contest (Tamil)
 
-alt = orizon
-Orizon
-Web development
+Author of Tamil Book  
+“Malarum Siriya Malargal” – A short graph of my thoughts written for my school’s Tamil Exhibition
 
-alt = fundo
-Fundo
-Web design
 
-alt = brawlhalla
-Brawlhalla
-Applications
+## SPORTS
 
-alt = dsm.
-DSM.
-Web design
+Volleyball  
+Badminton  
+Carrom
 
-alt = metaspark
-MetaSpark
-Web design
 
-alt = summary
-Summary
-Web development
+## LANGUAGES
 
-alt = task manager
-Task Manager
-Applications
+Tamil  
+English  
+Hindi
 
-alt = arrival
-Arrival
-Web development
 
+## AREAS OF INTEREST
 
+Thermal Science  
+Propulsion Systems  
+Rocket Science
 
-# blog
 
-Blog
+# DECLARATION
 
-alt = Design conferences in 2022
-Design
-Fab 23, 2022
-Design conferences in 2022
-Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-
-alt = Best fonts every designer
-Design
-Fab 23, 2022
-Best fonts every designer
-Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-
-alt = Design digest #80
-Design
-Fab 23, 2022
-Design digest #80
-Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-
-alt = UI interactions of the week
-Design
-Fab 23, 2022
-UI interactions of the week
-Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-
-alt = The forgotten art of spacing
-Design
-Fab 23, 2022
-The Forgotten Art Of Spacing
-Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-alt = Design digest #79
-Design
-Fab 23, 2022
-Design Digest #79
-Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-
-
-
-# contact
-
-Contact
-
-Contact Form
-
-Full name
-Email address
-Your Message
-
-Send Message
+I, Rupa Sri Revathi A, hereby declare that the information furnished above is true to the best of my knowledge and belief.
